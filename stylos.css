@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    height: 100vh;
+    padding: 10px;
+}
+header{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    overflow: hidden;
+}
+
+header img {
+    height: 76%;
+}
+.menu{
+    border: 1px solid rebeccapurple;
+    height: 100%;
+    display: flex;
+    background-color: rgb(35,99,80);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex: 1;
+    align-items: center;
+}
+.menu li{
+    border-right: 1px solid;
+    height: 3rem;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.menu .prom{
+    border-right: none;
+}
+main{
+    height: 55%;
+    display: flex;
+}
+.part1{
+
+    width: 50%;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.part1 article{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 0, 0.365);
+    display: flex;
+    height: 45%;
+    flex-direction: column;
+}
+
+.contenido{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    width: 80%;
+    height: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+h1{
+    padding: 8px;
+    height: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    display: flex;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+aside{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.login{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 55%;
+    color: aliceblue;
+}
+.name{
+    height: 13%;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(21, 58, 47);
+    color: aliceblue;
+}
+.mascota{
+
+    justify-content: center;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(35, 98, 80);
+}
+.mascota input{
+    height: 60%;
+    width: 63%;
+}
+.edad{
+
+    justify-content: center;
+    background-color: rgb(35, 98, 80);
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.edad input{
+    height: 60%;
+    width: 60%;
+}
+.raza{
+
+    justify-content: center;
+    background-color: rgb(35, 98, 80);
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.raza input{
+    height: 60%;
+    width: 60%;
+}
+.fecha{
+
+    background-color: rgb(35, 98, 80);
+    justify-content: center;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.fecha input{
+    height: 60%;
+    width: 60%;
+}
+.hora{
+
+    justify-content: center;
+    background-color: rgb(35, 98, 80);
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.hora input{
+    height: 60%;
+    width: 60%;
+}
+.amo{
+
+    justify-content: center;
+    background-color: rgb(35, 98, 80);
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.amo input{
+    height: 60%;
+    width: 60%;
+}
+.botton{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 98, 80);
+    height: 12%;
+    border-radius: 0px 0px 10px 10px;
+}
+footer{
+    border: 1px solid;
+    height: 15%;
+    background-color: rgb(35, 98, 80);
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
